@@ -1,0 +1,21 @@
+@use '../styles/variable.scss' as *;
+
+.about_wrapper {
+  padding-block: 3.5rem;
+
+  h1 {
+    font-size: 3rem;
+    max-width: 15ch;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+    opacity: 0.8;
+
+    span {
+      color: $color-grey;
+    }
+  }
+}
