@@ -1,0 +1,49 @@
+@use '../../styles/variable.scss' as *;
+
+.header {
+  position: sticky;
+  inset: 0;
+}
+
+.content_wrapper {
+  width: min(90%, 78rem);
+  margin-inline: auto;
+  display: flex;
+  min-height: 4.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.1);
+}
+
+.logo {
+  font-weight: $font-weight-large;
+  font-size: 2rem;
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+  }
+}
+
+.nav {
+  width: min(70%, 31.25rem);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+
+    a {
+      color: $color-primary;
+      text-decoration: none;
+      transition: all ease-in 0.2s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

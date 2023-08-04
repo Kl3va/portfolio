@@ -1,0 +1,10 @@
+@use '../../styles/variable.scss' as *;
+
+.main {
+  height: calc(100vh - 4.5rem);
+}
+
+.content {
+  width: min(90%, 78rem);
+  margin-inline: auto;
+}

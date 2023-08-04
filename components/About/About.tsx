@@ -1,4 +1,4 @@
-import styles from 'styles/about.module.scss'
+import styles from 'components/About/about.module.scss'
 
 type Props = {}
 

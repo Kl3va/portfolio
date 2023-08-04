@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from 'styles/home.module.scss'
 
 //Components
-import About from 'components/About'
-import Others from 'components/Others'
+
+import HomeTemplate from 'components/Home/HomeTemplate'
 
 export default function Home() {
   return (
@@ -14,10 +13,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/Levi Ackerman.ico' />
       </Head>
-      <main className={styles.main}>
-        <About />
-        <Others />
-      </main>
+      <HomeTemplate />
     </>
   )
 }
