@@ -4,6 +4,7 @@ import 'styles/base.scss'
 
 import type { AppProps } from 'next/app'
 import Header from 'components/Header/Header'
+import Footer from 'components/Footer/Footer'
 
 import { headerData } from 'data/headerData'
 
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Header {...headerData} />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }

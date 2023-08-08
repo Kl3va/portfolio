@@ -4,15 +4,6 @@ export const homeData = {
   photo: profileImg,
   names: 'Ikwunze Kelvin',
   role: 'Frontend Engineer',
-  quote: `
-“Men exist for the sake of one another.”
-― Marcus Aurelius, Meditations `,
-  copyright: 'fa-regular fa-copyright',
-  inspiration: {
-    name: 'Ruan Bekker',
-    url: 'https://ruan.dev',
-    text: 'inspired by'
-  },
   links: [
     {
       url: 'https://github.com/Kl3va',

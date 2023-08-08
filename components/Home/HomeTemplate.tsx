@@ -7,13 +7,6 @@ interface HomeTemplateProps {
   photo: StaticImageData
   names: string
   role: string
-  quote: string
-  copyright: string
-  inspiration: {
-    name: string
-    url: string
-    text: string
-  }
   links: LogoTypes[]
 }
 
@@ -22,24 +15,9 @@ interface LogoTypes {
   logo: string
 }
 
-const HomeTemplate = ({
-  photo,
-  names,
-  role,
-  quote,
-  copyright,
-  inspiration,
-  links,
-}: HomeTemplateProps) => {
-  const currentYear = new Date().getFullYear()
-
+const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
   return (
     <main className={styles.main}>
-      {/* <About />
-      <Others /> */}
-
-      {/* <i className='fas fa-heart'></i>
-      <i className='fa-brands fa-twitter'></i> */}
       <section className={styles.content_section}>
         <div className={styles.content__wrapper}>
           <div className={styles.content__imgWrapper}>
@@ -69,17 +47,6 @@ const HomeTemplate = ({
                 </span>
               )
             })}
-          </div>
-
-          <div className={styles.footer}>
-            <p>{quote}</p>
-            <p>
-              <i className={copyright}></i>
-              {`${currentYear} - ${names}. ${inspiration.text}`}
-              <span>
-                <a href={inspiration.url}>{inspiration.name}</a>
-              </span>
-            </p>
           </div>
         </div>
       </section>
