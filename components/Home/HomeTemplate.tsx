@@ -13,6 +13,7 @@ interface HomeTemplateProps {
 interface LogoTypes {
   url: string
   logo: string
+  label: string
 }
 
 const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
@@ -41,7 +42,7 @@ const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
             {links.map((link, index) => {
               return (
                 <span key={index}>
-                  <a href={link.url}>
+                  <a href={link.url} aria-label={link.label}>
                     <i className={link.logo}></i>
                   </a>
                 </span>

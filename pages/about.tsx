@@ -1,9 +1,13 @@
 import React from 'react'
 
-type Props = {}
+//Component
+import AboutTemplate from 'components/About/AboutTemplate'
 
-const about = (props: Props) => {
-  return <div>about</div>
+//Data
+import { aboutData } from 'data/aboutData'
+
+const about = () => {
+  return <AboutTemplate {...aboutData} />
 }
 
 export default about

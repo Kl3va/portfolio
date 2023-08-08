@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { homeData } from 'data/homeData'
 
 //Components
-
 import HomeTemplate from 'components/Home/HomeTemplate'
 
 export default function Home() {
