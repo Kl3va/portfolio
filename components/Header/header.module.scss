@@ -3,6 +3,7 @@
 .header {
   position: sticky;
   inset: 0;
+  background: $color-black;
 }
 
 .content_wrapper {
@@ -27,6 +28,10 @@
 
 .nav {
   width: min(70%, 31.25rem);
+
+  @media only screen and (max-width: $breakpoint-large) {
+    display: none;
+  }
 
   ul {
     display: flex;
