@@ -1,21 +1,54 @@
 @use '../../styles/variable.scss' as *;
 
-.about_wrapper {
-  padding-block: 3.5rem;
+.main {
+  padding-block: 5rem;
 
-  h1 {
-    font-size: 3rem;
-    max-width: 15ch;
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
+  & > *:not(:last-child) {
+    margin-bottom: 6rem;
   }
 
-  p {
-    font-size: 0.85rem;
-    opacity: 0.8;
+  & section > div {
+    width: min(90%, 78rem);
+    margin-inline: auto;
+  }
 
-    span {
-      color: $color-grey;
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+.about_me {
+  display: grid;
+  gap: 2.5rem;
+
+  a {
+    transition: all ease-out 0.2s;
+
+    &:hover {
+      text-decoration: none;
     }
   }
+}
+
+.skills_container {
+  padding-left: 1.5rem;
+  margin-block: 1rem 2rem;
+
+  & > *:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+
+.subList {
+  padding-left: 1rem;
+
+  & li {
+    font-weight: $font-weight-medium;
+  }
+}
+
+.message {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
 }

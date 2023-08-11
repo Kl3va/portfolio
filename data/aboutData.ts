@@ -1,11 +1,11 @@
 export const aboutData = {
   me: {
     title: 'Me',
-    text: `I'm passionate about creating exceptional user experiences that are fast, robust, pixel perfect... With a keen eye for detail, I strive to deliver the best.`,
+    text: `I'm passionate about crafting remarkable user experiences that prioritize speed, robustness, and pixel-perfection in responsiveness. My acute attention to detail drives me to consistently deliver excellence and exceed expectations.`,
   },
   background: {
     title: 'My background',
-    text: 'I have 1+ years of experience in the IT/Engineering Industry as a Software Development Engineer / Frontend Engineer, mostly in the Telecommunications Industry.',
+    text: 'I possess over one year of invaluable experience within the IT/Engineering sector, where I have thrived as a Software Engineer/Frontend Engineer, predominantly within the Telecommunications Industry.',
   },
   workedWith: {
     mainTitle: 'Stuff I do',
@@ -32,10 +32,7 @@ export const aboutData = {
           'Collaborative Development Workflows: Linear, Jira, Zoho-Desk',
         ],
       },
-      {
-        title: 'Performance Optimization:',
-        skills: ['Page Speed Optimization', 'Code Splitting', 'Lazy Loading'],
-      },
+
       {
         title: 'Frontend Build Tools:',
         skills: ['Webpack, Babel', 'npm and yarn package managers'],
@@ -63,7 +60,7 @@ export const aboutData = {
   },
   note: {
     title: 'Thanks',
-    text: 'I enjoy getting feedbacks from folks and reading technical contents I come across... if you want to chat, collaborate, or jut bout anything, please do reach out to me on twitter or via mail',
+    text: 'I enjoy getting feedbacks from folks and reading technical contents I come across... if you want to chat, collaborate, or just about anything, please do reach out to me on twitter or via mail',
   },
 
   fini: 'Thank you for reading!',
