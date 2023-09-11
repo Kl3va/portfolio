@@ -15,6 +15,7 @@ export const aboutData = {
         skills: [
           'HTML5, CSS3, JavaScript, TypeScript',
           'Responsive Design(Fluid-Layouts, Media-Queries, Mobile-First-Development), Cross-Browser Compatibility, SEO',
+          'Styling(Sass/SCSS, Styled-Components)',
           'Frontend Frameworks: React, Nextjs',
         ],
       },

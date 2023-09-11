@@ -1,9 +1,9 @@
 import React from 'react'
+import { projectData } from 'data/projectData'
+import Projects from 'components/Projects/Projects'
 
-type Props = {}
-
-const projects = (props: Props) => {
-  return <div>projects</div>
+const projectPage = () => {
+  return <Projects {...projectData} />
 }
 
-export default projects
+export default projectPage
