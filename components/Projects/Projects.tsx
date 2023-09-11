@@ -1,23 +1,28 @@
 import React from 'react'
+
+//data
 import { projectData } from 'data/projectData'
+
+//Styling
+import styles from 'components/Projects/projects.module.scss'
 
 type ProjectProps = typeof projectData
 
 const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
   return (
-    <main>
-      <section>
-        <div>
+    <main className={styles.main}>
+      <section className={styles.section__primary}>
+        <div className={styles.container__primary}>
           <h1>{heading}</h1>
           <h2>{subTitle}</h2>
-          <div>
+          <div className={styles.project__container}>
             {projects.map((project, index) => {
               return (
-                <div key={index}>
+                <div key={index} className={styles.unique__project}>
                   <h3>{project.title}</h3>
                   <h4>{project.tools.join(' + ')}</h4>
                   <p>{project.subTitle}</p>
-                  <div>
+                  <div className={styles.links}>
                     <div>
                       <a href={project.links[0].url}>
                         <i className='fa-regular fa-eye'></i>
@@ -37,8 +42,12 @@ const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
           </div>
         </div>
       </section>
-      <section>
-        <div>kjni</div>
+
+      <section className={styles.section__secondary}>
+        <div className={styles.container__secondary}>
+          <h2>{extra.subHeading}</h2>
+          <p>{extra.title}</p>
+        </div>
       </section>
     </main>
   )

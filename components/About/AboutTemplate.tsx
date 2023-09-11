@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Styling
 import styles from 'components/About/about.module.scss'
 
 interface AboutDataTypes {

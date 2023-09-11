@@ -19,7 +19,7 @@ export const projectData = {
     {
       title: 'Entertaino',
       tools: ['React', 'Context-API', 'Firebase'],
-      subTitle: 'A movie(img) web app with search/bookmark functionality',
+      subTitle: 'A movie web-app with search/bookmark functionality',
       links: [
         { label: 'live', url: 'https://entertainment-mini-app.netlify.app/' },
         {

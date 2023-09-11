@@ -1,0 +1,76 @@
+@use '../../styles/variable.scss' as *;
+
+.main {
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.section__secondary,
+.section__primary {
+  margin-block: 5rem;
+}
+
+.container__secondary,
+.container__primary {
+  width: min(90%, 78rem);
+  margin-inline: auto;
+}
+
+.project__container {
+  display: grid;
+  gap: 3.5rem;
+}
+
+.unique__project {
+  padding: 1.5rem 1rem;
+  width: min(100%, 50rem);
+  border: 2px solid $color-primary;
+  border-radius: 0.5rem;
+  line-height: 1.1;
+
+  display: grid;
+  gap: 0.5rem;
+
+  h4 {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: $color-light-grey;
+  }
+
+  & > p {
+    color: $color-grey;
+    line-height: 1;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+
+  div {
+    display: flex;
+    // gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    width: 5rem;
+    border: 1px solid $color-primary;
+    border-radius: 0.5rem;
+
+    p {
+      opacity: 0.9;
+    }
+
+    i {
+      transition: all ease-in 0.2s;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
