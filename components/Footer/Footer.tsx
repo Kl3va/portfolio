@@ -2,9 +2,7 @@ import React from 'react'
 import styles from 'components/Footer/footer.module.scss'
 
 const footerData = {
-  quote: `
-“Men exist for the sake of one another.”
-― Marcus Aurelius, Meditations `,
+  quote: 'Learn! Build! Repeat!',
   copyright: 'fa-regular fa-copyright',
   inspiration: {
     name: 'Ruan Bekker',
