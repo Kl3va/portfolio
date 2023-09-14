@@ -1,9 +1,9 @@
 import React from 'react'
+import ResumeTemplate from 'components/Resume/Resume'
+import { resumeData } from 'data/resumeData'
 
-type Props = {}
-
-const resume = (props: Props) => {
-  return <div>resume</div>
+const resume = () => {
+  return <ResumeTemplate {...resumeData} />
 }
 
 export default resume

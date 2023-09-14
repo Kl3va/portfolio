@@ -34,11 +34,17 @@ export const resumeData = {
       others: [
         {
           label: 'Responsibilities',
-          lists: ['', ''],
+          lists: [
+            'Manage / Maintain assigned software applications',
+            'Work close with the System Operations team in terms of incident resolutions.',
+            'Document all new integrations and resolutions.',
+            'Add new user interface features',
+            'TroubleShoot and Maintain POS terminals',
+          ],
         },
         {
           label: 'Technologies worked with',
-          lists: ['', ''],
+          lists: ['DBforge, MobaXterm, Otrs, Confluence, ReactJS, Jira'],
         },
       ],
       board: [
@@ -53,6 +59,24 @@ export const resumeData = {
         {
           label: 'Description',
           description: `Design, Build and Maintain existing applications, ensuring they're highly performant to serve customers.`,
+        },
+      ],
+    },
+
+    {
+      company: 'Applyforme',
+      board: [
+        {
+          label: 'Position',
+          description: 'Frontend Developer',
+        },
+        {
+          label: 'Duration',
+          description: 'Oct 2022 - Dec 2022',
+        },
+        {
+          label: 'Description',
+          description: `Build company's website and application(user dashboard, checkout)`,
         },
       ],
     },
