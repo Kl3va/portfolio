@@ -1,1 +1,69 @@
 @use '../../styles/variable.scss' as *;
+
+.section {
+  margin-block: 2.5rem;
+
+  @media only screen and (min-width: $breakpoint-medium) {
+    margin-block: 5rem;
+  }
+}
+
+.resume_container {
+  width: min(90%, 78rem);
+  margin-inline: auto;
+
+  display: grid;
+  gap: 3.5rem;
+
+  @media only screen and (min-width: $breakpoint-medium) {
+    gap: 5.5rem;
+  }
+
+  h1,
+  h2 {
+    margin-bottom: 0.5rem;
+
+    @media only screen and (min-width: $breakpoint-medium) {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.jobs_container {
+  display: grid;
+  gap: 4rem;
+}
+
+.unique_job {
+  display: grid;
+  gap: 1rem;
+}
+
+.jobs_table {
+  display: grid;
+  max-width: 53rem;
+  grid-template-columns: min-content 1fr;
+  border: 1px solid $color-primary;
+
+  & > * {
+    border: 1px solid $color-primary;
+    min-height: 5rem;
+
+    display: grid;
+    align-items: center;
+    padding: 0.5rem;
+    font-weight: 500;
+
+    @media only screen and (min-width: $breakpoint-small) {
+      padding: 1rem;
+    }
+  }
+}
+
+.lists {
+  padding-left: 1.5rem;
+
+  li {
+    font-weight: 500;
+  }
+}
