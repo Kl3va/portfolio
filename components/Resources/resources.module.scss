@@ -1,0 +1,13 @@
+@use '../../styles/variable.scss' as *;
+
+.section__main {
+  margin-block: 5rem;
+}
+
+.container__main {
+  width: min(90%, 78rem);
+  margin-inline: auto;
+
+  display: grid;
+  gap: 4rem;
+}

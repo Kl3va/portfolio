@@ -2,6 +2,9 @@ import React from 'react'
 import parse from 'html-react-parser'
 import { resourcesData } from 'data/resourcesData'
 
+//Styling
+import styles from 'components/Resources/resources.module.scss'
+
 type ResourceProps = typeof resourcesData
 
 const ResourcesTemplate = ({
@@ -12,8 +15,8 @@ const ResourcesTemplate = ({
 }: ResourceProps) => {
   return (
     <main>
-      <section>
-        <div>
+      <section className={styles.section__main}>
+        <div className={styles.container__main}>
           <div>
             <h1>{heading}</h1>
             <p>{mainText}</p>
