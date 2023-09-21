@@ -1,11 +1,9 @@
 import React from 'react'
+import { resourcesData } from 'data/resourcesData'
+import ResourcesTemplate from 'components/Resources/Resources'
 
-type Props = {}
-
-const resources = (props: Props) => {
-  return (
-    <div>resources</div>
-  )
+const resources = () => {
+  return <ResourcesTemplate {...resourcesData} />
 }
 
 export default resources
