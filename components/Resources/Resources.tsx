@@ -21,10 +21,10 @@ const ResourcesTemplate = ({
             <h1>{heading}</h1>
             <p>{mainText}</p>
           </div>
-          <div>
+          <div className={styles.resource__wrapper}>
             {resources.map((resource, index) => {
               return (
-                <div key={index}>
+                <div key={index} className={styles.unique_resource}>
                   <h2>{resource.heading}</h2>
                   {parse(resource.contents)}
                 </div>

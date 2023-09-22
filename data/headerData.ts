@@ -20,13 +20,5 @@ export const headerData = {
       title: 'Resources',
       url: '/resources',
     },
-    {
-      title: 'Blog',
-      url: '/blog',
-    },
-    {
-      title: 'Contact',
-      url: '/contact',
-    },
   ],
 }

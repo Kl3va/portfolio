@@ -1,7 +1,11 @@
 @use '../../styles/variable.scss' as *;
 
 .section__main {
-  margin-block: 5rem;
+  margin-block: 2.5rem;
+
+  @media only screen and (min-width: $breakpoint-medium) {
+    margin-block: 5rem;
+  }
 }
 
 .container__main {
@@ -9,5 +13,32 @@
   margin-inline: auto;
 
   display: grid;
-  gap: 4rem;
+  gap: 3.5rem;
+}
+
+.resource__wrapper {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.unique_resource {
+  ul {
+    padding-left: 1.5rem;
+
+    display: grid;
+    gap: 0.5rem;
+
+    li {
+      font-weight: 500;
+    }
+  }
+
+  a {
+    color: $color-grey;
+    transition: all ease-in 0.2s;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
