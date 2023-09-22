@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Background from 'components/Background'
 import MenuList from 'components/Menu/MenuList'
 
+import { useCardStateContext } from 'hooks/context'
+
 import styles from 'components/Header/header.module.scss'
 
 interface HeaderDataTypes {
@@ -18,6 +20,8 @@ interface NavDataTypes {
 }
 
 const Header = ({ logo, links }: HeaderDataTypes) => {
+  const { isMenuOpen, handleMenuOpen } = useCardStateContext()
+
   return (
     <header className={styles.header}>
       <div className={styles.content_wrapper}>
@@ -36,12 +40,12 @@ const Header = ({ logo, links }: HeaderDataTypes) => {
             })}
           </ul>
         </nav>
-        <span className={styles.menu}>
+        <span className={styles.menu} onClick={handleMenuOpen}>
           Menu
           <i className='fa-solid fa-caret-down'></i>
         </span>
-        <Background />
-        <MenuList />
+        {isMenuOpen && <Background />}
+        {isMenuOpen && <MenuList />}
       </div>
     </header>
   )

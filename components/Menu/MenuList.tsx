@@ -2,11 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import { headerData } from 'data/headerData'
 import styles from 'components/Header/header.module.scss'
+import { useCardStateContext } from 'hooks/context'
 
 const MenuList = () => {
+  const { handleMenuClose } = useCardStateContext()
   return (
-    <aside className={styles.menulist}>
-      <span>
+    <aside className={styles.menulist} onClick={handleMenuClose}>
+      <span onClick={handleMenuClose}>
         <i className='fa-solid fa-xmark'></i>
       </span>
       <div className={styles.menulinks}>
