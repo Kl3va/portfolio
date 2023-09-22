@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Background from 'components/Background'
+import MenuList from 'components/Menu/MenuList'
 
 import styles from 'components/Header/header.module.scss'
 
@@ -34,6 +36,12 @@ const Header = ({ logo, links }: HeaderDataTypes) => {
             })}
           </ul>
         </nav>
+        <span className={styles.menu}>
+          Menu
+          <i className='fa-solid fa-caret-down'></i>
+        </span>
+        <Background />
+        <MenuList />
       </div>
     </header>
   )
