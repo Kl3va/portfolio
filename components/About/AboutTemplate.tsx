@@ -25,8 +25,6 @@ interface SkillsDataTypes {
   skills: String[]
 }
 
-type Props = {}
-
 const AboutTemplate = ({
   me,
   background,
