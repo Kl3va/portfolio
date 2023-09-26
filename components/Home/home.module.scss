@@ -1,7 +1,7 @@
 @use '../../styles/variable.scss' as *;
 
 .main {
-  height: calc(100dvh - 9rem);
+  min-height: calc(100dvh - 9rem);
   padding-block: 0.5rem;
   border: 2px solid indigo;
 }
