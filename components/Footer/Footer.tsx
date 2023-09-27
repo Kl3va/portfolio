@@ -22,7 +22,9 @@ const Footer = () => {
         <i className={footerData.copyright}></i>
         {`${currentYear} - ${footerData.names}. ${footerData.inspiration.text}`}
         <span>
-          <a href={footerData.inspiration.url}>{footerData.inspiration.name}</a>
+          <a href={footerData.inspiration.url} target='_blank'>
+            {footerData.inspiration.name}
+          </a>
         </span>
       </p>
     </footer>

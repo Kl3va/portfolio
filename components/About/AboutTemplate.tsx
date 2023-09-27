@@ -40,8 +40,11 @@ const AboutTemplate = ({
             <h1>About Me</h1>
             <p>
               Hello! My name is Ikwunze Kelvin, I currently work as a Frontend
-              Engineer for <a href='https://www.lunarstack.co/'>LunarStack</a>,
-              specializing in the software developement & blockchain industry.
+              Engineer for{' '}
+              <a href='https://www.lunarstack.co/' target='_blank'>
+                LunarStack
+              </a>
+              , specializing in the software developement & blockchain industry.
             </p>
           </div>
 

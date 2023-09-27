@@ -41,7 +41,7 @@ const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
           {links.map((link, index) => {
             return (
               <span key={index}>
-                <a href={link.url} aria-label={link.label}>
+                <a href={link.url} aria-label={link.label} target='_blank'>
                   <i className={link.logo}></i>
                 </a>
               </span>

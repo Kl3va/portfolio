@@ -24,13 +24,13 @@ const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
                   <p>{project.subTitle}</p>
                   <div className={styles.links}>
                     <div>
-                      <a href={project.links[0].url}>
+                      <a href={project.links[0].url} target='_blank'>
                         <i className='fa-regular fa-eye'></i>
                       </a>
                       <p>{project.links[0].label}</p>
                     </div>
                     <div>
-                      <a href={project.links[1].url}>
+                      <a href={project.links[1].url} target='_blank'>
                         <i className='fa-solid fa-code-branch'></i>
                       </a>
                       <p>{project.links[1].label}</p>
