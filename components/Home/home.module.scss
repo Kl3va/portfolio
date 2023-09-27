@@ -1,8 +1,7 @@
 @use '../../styles/variable.scss' as *;
 
 .main {
-  min-height: calc(100vh - 9rem);
-  padding-block: 0.5rem;
+  min-height: calc(100dvh - 9rem);
 }
 
 .content_section {
@@ -12,10 +11,9 @@
 }
 
 .content__wrapper {
-  border: 2px solid indigo;
   width: min(90%, 37rem);
   margin-inline: auto;
-  min-height: calc(100vh - 9rem);
+  min-height: calc(100dvh - 9rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +21,7 @@
 }
 
 .content__imgWrapper {
-  width: min(50%, 12.5rem);
+  width: min(50%, 12rem);
   aspect-ratio: 1 /1;
   border-radius: 50%;
 }
