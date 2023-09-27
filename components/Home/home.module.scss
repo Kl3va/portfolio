@@ -1,7 +1,10 @@
 @use '../../styles/variable.scss' as *;
 
 .main {
-  min-height: calc(100dvh - 9rem);
+  min-height: calc(100vh - 9rem);
+
+  display: flex;
+  align-items: center;
 }
 
 .content_section {
@@ -13,11 +16,13 @@
 .content__wrapper {
   width: min(90%, 37rem);
   margin-inline: auto;
-  min-height: calc(100dvh - 9rem);
+  min-height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  //gap: 2.5rem;
+  //border: 1px solid red;
+  justify-content: space-between;
 }
 
 .content__imgWrapper {
