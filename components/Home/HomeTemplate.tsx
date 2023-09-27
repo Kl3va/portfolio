@@ -19,38 +19,36 @@ interface LogoTypes {
 const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
   return (
     <main className={styles.main}>
-      <section className={styles.content_section}>
-        <div className={styles.content__wrapper}>
-          <div className={styles.content__imgWrapper}>
-            <Image
-              src={photo}
-              alt='profile-img'
-              style={{
-                width: '100%',
-                height: '100%',
-                borderRadius: '50%',
-              }}
-            />
-          </div>
-
-          <div className={styles.description}>
-            <h1>{names}</h1>
-            <h2>{role}</h2>
-          </div>
-
-          <div className={styles.links_container}>
-            {links.map((link, index) => {
-              return (
-                <span key={index}>
-                  <a href={link.url} aria-label={link.label}>
-                    <i className={link.logo}></i>
-                  </a>
-                </span>
-              )
-            })}
-          </div>
+      <div className={styles.content__wrapper}>
+        <div className={styles.content__imgWrapper}>
+          <Image
+            src={photo}
+            alt='profile-img'
+            style={{
+              width: '100%',
+              height: '100%',
+              borderRadius: '50%',
+            }}
+          />
         </div>
-      </section>
+
+        <div className={styles.description}>
+          <h1>{names}</h1>
+          <h2>{role}</h2>
+        </div>
+
+        <div className={styles.links_container}>
+          {links.map((link, index) => {
+            return (
+              <span key={index}>
+                <a href={link.url} aria-label={link.label}>
+                  <i className={link.logo}></i>
+                </a>
+              </span>
+            )
+          })}
+        </div>
+      </div>
     </main>
   )
 }
