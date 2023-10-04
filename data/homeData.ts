@@ -1,4 +1,4 @@
-import profileImg from 'public/levi.jpg'
+import profileImg from 'public/kl3va-nft.jpg'
 
 export const homeData = {
   photo: profileImg,

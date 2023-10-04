@@ -4,7 +4,7 @@ export const resourcesData = {
     'Frontend and Tech related resources I find useful / consumed in my learnings.',
   extras: {
     label: 'Extra',
-    content: ` I consume a lot of YouTube content, especially for quick study. I'm looking at improving my animation skills (which are a bit weak), and maybe get into blockchain development. Reading about it has been interesting. WAGMI! (WAGMI stands for "We're all gonna make it," often used in the context of cryptocurrency and investments).`,
+    content: ` I consume a lot of YouTube content... especially for quick study. I'm looking at improving my animation skills (which are a bit weak), writing articles(technical writing) and maybe get into blockchain development. WAGMI! (WAGMI stands for "We're all gonna make it," often used in the context of cryptocurrency and investments).`,
   },
   resources: [
     {

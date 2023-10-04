@@ -14,7 +14,7 @@ const CustomHead = ({ title, description, keywords }: CustomHeadTypes) => {
       <title>{title}</title>
       <meta name='description' content={description} />
       <meta name='keywords' content={keywords} />
-      <link rel='icon' href='/levi-ackerman.ico' />
+      <link rel='icon' href='/kl3va-nft-icon.ico' />
     </Head>
   )
 }
