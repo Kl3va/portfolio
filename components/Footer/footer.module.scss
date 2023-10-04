@@ -2,12 +2,14 @@
   // padding: 0 1rem 1rem 1rem;
   min-height: 4rem;
   opacity: 0.8;
-  display: grid;
   gap: 0.5rem;
+  display: grid;
+
   font-style: italic;
 
   & > * {
     text-align: center;
+    line-height: 1;
   }
 
   span {
