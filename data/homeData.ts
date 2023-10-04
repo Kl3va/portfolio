@@ -1,4 +1,4 @@
-import profileImg from 'public/kl3va-nft.jpg'
+import profileImg from 'public/kl3va-nft.webp'
 
 export const homeData = {
   photo: profileImg,
