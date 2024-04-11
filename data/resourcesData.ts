@@ -25,6 +25,10 @@ export const resourcesData = {
         <li>The official <a href='https://nextjs.org/docs'target='_blank'>NextJS documentation</a> is equally excellent. Trust me!</li></ul>`,
     },
     {
+      heading: 'Community',
+      contents: `<ul><li><a href='https://www.frontendmentor.io/'target='_blank'>Frontend Mentor</a> stands out as a premier community for developers. The supportive team, community and numerous challenges have provided me with continuous opportunities for growth. I'm grateful to have been recognized as Mentor of the Week on one occasion, highlighting the impact of this platform on my journey so far. The platform provides real world projects that accommodate individuals of all proficiency levels, rendering it an essential resource for developers regardless of their experience.</li></ul>`,
+    },
+    {
       heading: 'Engineering Podcasts',
       contents: `
         <ul><li><a href='https://www.frontendhappyhour.com/ 'target='_blank'>Fronted Happy Hour</a> podcast, features Engineers from Netflix, Twitch.</li>

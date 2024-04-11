@@ -39,6 +39,7 @@
 
   display: grid;
   gap: 0.5rem;
+  transition: all 0.2s ease-in;
 
   h4 {
     margin-bottom: 0.5rem;
@@ -49,6 +50,10 @@
   & > p {
     color: $color-grey;
     line-height: 1;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
