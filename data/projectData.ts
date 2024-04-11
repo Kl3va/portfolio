@@ -4,9 +4,19 @@ export const projectData = {
     'Crafting Expertise: Highlights from My Learning Path, Showcasing my Favorite Projects',
   extra: {
     subHeading: 'Extras',
-    title: 'Working on a fullstack invoice application during my leisure...',
+    title:
+      'Working on a fullstack invoice application and few other stuff to improve my skills...',
   },
   projects: [
+    {
+      title: 'Work-Nest web-app',
+      tools: ['NextJs', 'Typescript', 'Styled-Components', 'Axios'],
+      subTitle: 'A Job-board where users can find and post jobs',
+      links: [
+        { label: 'live', url: 'https://work-nest.vercel.app/' },
+        { label: 'code', url: 'https://github.com/Kl3va/job-board' },
+      ],
+    },
     {
       title: 'Audiophile E-commerce web-app',
       tools: ['React', 'Typescript', 'Redux/ReduxToolKit'],
