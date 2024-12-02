@@ -28,6 +28,11 @@
 .project__container {
   display: grid;
   gap: 3.5rem;
+
+  @media only screen and (min-width: $breakpoint-larger) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
 }
 
 .unique__project {

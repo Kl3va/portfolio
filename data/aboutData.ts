@@ -56,7 +56,16 @@ export const aboutData = {
     ],
     familiar: {
       title: 'Familiar With',
-      skills: ['Firebase', 'DBforge', 'MobaXterm', 'Otrs', 'Confluence'],
+      skills: [
+        'Firebase',
+        'NodeJs/Express',
+        'MongoDB/Mongoose',
+        'Postman',
+        'DBforge',
+        'MobaXterm',
+        'Otrs',
+        'Confluence',
+      ],
     },
   },
   note: {

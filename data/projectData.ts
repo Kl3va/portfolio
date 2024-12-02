@@ -5,9 +5,26 @@ export const projectData = {
   extra: {
     subHeading: 'Extras',
     title:
-      'Working on a fullstack invoice application and few other stuff to improve my skills...',
+      'Working on a fullstack personal finance application and few other stuff to improve my skills...',
   },
   projects: [
+    {
+      title: 'Invoice-Orbit',
+      tools: [
+        'ReactJs',
+        'NodeJs/Express',
+        'MongoDB/Mongoose',
+        'Typescript',
+        'Styled-Components',
+        'Clerk',
+      ],
+      subTitle:
+        'An invoice manager that helps users create and manage invoices effectively',
+      links: [
+        { label: 'live', url: 'https://www.invoiceorbit.xyz' },
+        { label: 'code', url: 'https://github.com/Kl3va/Invoice-Orbit' },
+      ],
+    },
     {
       title: 'Work-Nest web-app',
       tools: ['NextJs', 'Typescript', 'Styled-Components', 'Axios'],
