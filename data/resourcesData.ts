@@ -22,11 +22,11 @@ export const resourcesData = {
       heading: 'React / NextJS',
       contents: `<ul><li><a href='https://www.youtube.com/watch?v=iZhV0bILFb0&t=6s'target='_blank'>John Smilga's course</a> took me from 0 to 100 in React. It's a fantastic resource if you're just starting out.</li>
         <li>My favorite NextJS course is by <a href='https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH'target='_blank'>Code Evolution.</a></li>
-        <li>The official <a href='https://nextjs.org/docs'target='_blank'>NextJS documentation</a> is equally excellent. Trust me!</li></ul>`,
+        <li>The official <a href='https://nextjs.org/docs'target='_blank'>NextJS documentation</a> is equally excellent. Trust me!</li><li>The <a href='https://react.dev/learn/you-might-not-need-an-effect#' target='_blank'>React Docs on useEffect</a> is a resource I frequently revisit, as this topic is one, many developers, including myself, often find challenging.</li></ul>`,
     },
     {
       heading: 'Community',
-      contents: `<ul><li><a href='https://www.frontendmentor.io/'target='_blank'>Frontend Mentor</a> stands out as a premier community for developers. The supportive team, community and numerous challenges have provided me with continuous opportunities for growth. I'm grateful to have been recognized as Mentor of the Week on one occasion, highlighting the impact of this platform on my journey so far. The platform provides real world projects that accommodate individuals of all proficiency levels, rendering it an essential resource for developers regardless of their experience.</li></ul>`,
+      contents: `<ul><li><a href='https://www.frontendmentor.io/'target='_blank'>Frontend Mentor</a> stands out as a premier community for developers. The supportive team, community and numerous challenges have provided me with continuous opportunities for growth. I'm grateful to have been recognized as one of the <a href='https://x.com/frontendmentor/status/1508475436484997138?s=46'target='_blank'>Mentors of the Week</a> on an occasion, highlighting the impact of this platform on my journey so far. The platform provides real world projects that accommodate individuals of all proficiency levels, rendering it an essential resource for developers regardless of their experience.</li></ul>`,
     },
     {
       heading: 'Engineering Podcasts',
