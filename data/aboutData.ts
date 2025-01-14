@@ -5,7 +5,7 @@ export const aboutData = {
   },
   background: {
     title: 'My background',
-    text: 'I possess over 2 years of invaluable experience within the IT/Engineering sector, where I have thrived as a Software Engineer/Frontend.',
+    text: 'I possess over 2 years of invaluable experience within the IT/Engineering sector, where I have thrived as a Software Engineer/Frontend Engineer.',
   },
   workedWith: {
     mainTitle: 'Stuff I do',
