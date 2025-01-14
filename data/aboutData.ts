@@ -5,7 +5,7 @@ export const aboutData = {
   },
   background: {
     title: 'My background',
-    text: 'I possess over 2 years of invaluable experience within the IT/Engineering sector, where I have thrived as a Software Engineer/Frontend Engineer, predominantly within the Telecommunications Industry.',
+    text: 'I possess over 2 years of invaluable experience within the IT/Engineering sector, where I have thrived as a Software Engineer/Frontend.',
   },
   workedWith: {
     mainTitle: 'Stuff I do',
@@ -15,7 +15,7 @@ export const aboutData = {
         skills: [
           'HTML5, CSS3, JavaScript, TypeScript',
           'Responsive Design(Fluid-Layouts, Media-Queries, Mobile-First-Development), Cross-Browser Compatibility, SEO',
-          'Styling(Sass/SCSS, Styled-Components)',
+          'Styling(Sass/SCSS, Styled-Components, Tailwind CSS)',
           'Frontend Frameworks: React, Nextjs',
         ],
       },
@@ -51,20 +51,20 @@ export const aboutData = {
       },
       {
         title: 'Testing and Debugging:',
-        skills: ['React Testing Library', 'Browser Developer Tools'],
+        skills: ['React Testing Library', 'Vitest', 'Browser Developer Tools'],
       },
     ],
     familiar: {
-      title: 'Familiar With',
+      title: 'Others:',
       skills: [
+        'Git/Github',
         'Firebase',
         'NodeJs/Express',
         'MongoDB/Mongoose',
         'Postman',
         'DBforge',
         'MobaXterm',
-        'Otrs',
-        'Confluence',
+        'MYSQL',
       ],
     },
   },
