@@ -38,13 +38,16 @@ const AboutTemplate = ({
         <div className={styles.about_me}>
           <div>
             <h1>About Me</h1>
-            <p>
+            {/* <p>
               Hello! My name is Ikwunze Kelvin, I currently work as a Frontend
               Engineer for{' '}
               <a href='https://www.lunarstack.co/' target='_blank'>
                 LunarStack
               </a>
               , specializing in the software developement & blockchain industry.
+            </p> */}
+            <p>
+              Hello! My name is Ikwunze Kelvin, and I'm a Frontend Engineer.
             </p>
           </div>
 
