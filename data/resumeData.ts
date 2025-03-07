@@ -43,7 +43,7 @@ export const resumeData = {
       ],
       board: {
         label: 'Position',
-        role: 'Software Developer Intern',
+        role: 'Software Developer',
         label2: 'Duration',
         timeline: 'Sept 2022 - April 2023',
         label3: 'Description',
