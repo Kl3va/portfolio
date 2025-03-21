@@ -21,15 +21,7 @@ const HomeTemplate = ({ photo, names, role, links }: HomeTemplateProps) => {
     <main className={styles.main}>
       <div className={styles.content__wrapper}>
         <div className={styles.content__imgWrapper}>
-          <Image
-            src={photo}
-            alt='profile-img'
-            style={{
-              width: '100%',
-              height: '100%',
-              borderRadius: '50%',
-            }}
-          />
+          <Image src={photo} alt='profile-img' />
         </div>
 
         <div className={styles.description}>
