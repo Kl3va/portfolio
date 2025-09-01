@@ -22,9 +22,7 @@ export const resumeData = {
         },
         {
           label: "Technologies worked with",
-          lists: [
-            "NextJS, TailwindCSS, axios, React-Hook-Form, Recharts, zod,",
-          ],
+          lists: ["NextJS, TailwindCSS, axios, React-Hook-Form, Recharts, zod"],
         },
       ],
       board: {
@@ -33,7 +31,8 @@ export const resumeData = {
         label2: "Duration",
         timeline: "May 2025 - Present",
         label3: "Description",
-        description: `Build and Maintain the agency's sites/applications, Build out client projects...Focusing on the blockchain industry.`,
+        description: `
+Design, Build applications and marketing landing pages, ensuring they're highly performant and accessible to serve users`,
       },
     },
     {
@@ -48,7 +47,7 @@ export const resumeData = {
         label2: "Duration",
         timeline: "June 2023 - March 2025",
         label3: "Description",
-        description: `Build and Maintain the company' sites/applications, Build out client projects...Focusing on the blockchain industry.`,
+        description: `Build and Maintain the agency' sites/applications, Build out client projects...Focusing on the blockchain industry.`,
       },
     },
 
