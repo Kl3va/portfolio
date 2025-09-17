@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 //data
-import { projectData } from 'data/projectData'
+import { projectData } from "data/projectData";
 
 //Styling
-import styles from 'components/Projects/projects.module.scss'
+import styles from "components/Projects/projects.module.scss";
 
-type ProjectProps = typeof projectData
+type ProjectProps = typeof projectData;
 
 const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
   return (
@@ -20,24 +20,28 @@ const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
               return (
                 <div key={index} className={styles.unique__project}>
                   <h3>{project.title}</h3>
-                  <h4>{project.tools.join(' + ')}</h4>
+                  <h4>{project.tools.join(" + ")}</h4>
                   <p>{project.subTitle}</p>
                   <div className={styles.links}>
                     <div>
-                      <a href={project.links[0].url} target='_blank'>
-                        <i className='fa-regular fa-eye'></i>
+                      <a href={project.links[0].url} target="_blank">
+                        <i className="fa-regular fa-eye"></i>
                       </a>
                       <p>{project.links[0].label}</p>
                     </div>
-                    <div>
-                      <a href={project.links[1].url} target='_blank'>
-                        <i className='fa-solid fa-code-branch'></i>
-                      </a>
-                      <p>{project.links[1].label}</p>
-                    </div>
+
+                    {project.links[1] && (
+                      <div>
+                        {" "}
+                        <a href={project.links[1]?.url} target="_blank">
+                          <i className="fa-solid fa-code-branch"></i>
+                        </a>
+                        <p>{project.links[1]?.label}</p>
+                      </div>
+                    )}
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
@@ -50,7 +54,7 @@ const Projects = ({ heading, subTitle, extra, projects }: ProjectProps) => {
         </div>
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
