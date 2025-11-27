@@ -38,7 +38,7 @@ export const projectData = {
       subTitle:
         "An invoice manager that helps users create and manage invoices effectively",
       links: [
-        { label: "live", url: "https://www.invoiceorbit.xyz" },
+        { label: "live", url: "https://www.invoiceorbit.site" },
         { label: "code", url: "https://github.com/Kl3va/Invoice-Orbit" },
       ],
     },
